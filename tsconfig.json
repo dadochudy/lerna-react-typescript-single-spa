@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "jsx": "preserve"
+  },
+  "_compilerOptions_Comments": {
+    "module": "esnext // adds features(polyfills) that are not in official ES spec",
+    "moduleResolution": "node, // defines resolving import paths there are Two classic ('old') and node('new'). Node works as nodeJS and checks more paths to find 'file'",
+    "noEmit": "true, // defines that TS is only resposible for Type Checking not for compilation (Webpack, Parcel or Rollup)",
+    "skipLibCheck": "true, // defines not to check '.d.ts' files they will be checked inside individual packages shortens compile times",
+    "allowSyntheticDefaultImports": "true, // does some magic on old modules without default exports so it will import anyway",
+    "sourceMap": "true, // generuje sourceMap",
+    "target": "'esnext', // what target JavaScript should be emitted from given TypeScript",
+    "jsx": "preserve // this will preserver jsx files <div /> wouldn't change for example to React.createElement('div')"
+  }
+}
