@@ -6,7 +6,7 @@ module.exports = {
   mode: "development",
   devtool: "inline-source-map",
   entry: {
-    "single-spa.config": "./packages/single-spa.config.ts"
+    "single-spa.config": "./packages/single-spa.config.js"
   },
   output: {
     publicPath: "/dist/",
