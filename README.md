@@ -8,6 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+```
+$ lerna link && lerna exec yarn install
+```
+
 To install dependencies
 
 ```
